@@ -1,0 +1,6 @@
+train: ./dataset/train/images
+val: ./dataset/val/images
+test: ./dataset/test/images
+
+nc: 4
+names: ['D00','D10','D20','D40']

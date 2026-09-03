@@ -1,0 +1,54 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+dashboard/node_modules/
+dashboard/.next/
+dashboard/out/
+dashboard/.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training data, model weights, and experiment output
+dataset/
+models/
+runs/
+*.pt
+*.onnx
+
+# Local videos and generated media
+input_videos/
+output_videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated logs and reports
+*.log
+pothole_logs.csv
+speed_violations.csv
+clean_speed_violations.csv
+Miscellaneous/plate_recognition_results.csv
